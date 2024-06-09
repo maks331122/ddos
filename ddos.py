@@ -7,9 +7,6 @@ import os
 import platform
 import sys
 
-import tkinter as tk
-from tkinter import ttk
-
 LOADERS = {'PYF':"\n\n", 'OWN1':"\n\n\r\r", 'OWN2':"\r\r\n\n", 'OWN3':"\n\r\n", 'OWN4':"\n\n\n\n", 'OWN5':"\n\n\n\n\r\r\r\r"}
 METHODS = ['GET', 'PUT', 'PATCH', 'POST', 'HEAD', 'DELETE', 'OPTIONS', 'TRACE']
 
